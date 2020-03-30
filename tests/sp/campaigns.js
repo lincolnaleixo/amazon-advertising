@@ -76,7 +76,7 @@ async function listCampaignsEx(profileId) {
 
 (async () => {
 
-	const profileId = '573128773140931'
+	const { profileId } = options
 	// await listCampaigns(profileId)
 	await listCampaignsEx(profileId)
 
